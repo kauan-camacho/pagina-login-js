@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Single:wght@100..900&family=Teko:wght@300..700&display=swap');
+
+*{
+  padding: 0; 
+  margin: 0; 
+  box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(82, 77, 165);
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 8px;   
+}
+
+/* CABEÇALHO */
+header {
+    font-family: "Bitcount Single", system-ui;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.466);
+    color: white;
+
+    margin: 20px 0px;
+}
+
+header h1 {
+    text-transform: uppercase;
+}
+
+/* SECTION DAS DIVS */
+section {
+    background-color: rgb(231, 228, 228);
+    text-align: center;
+    width: 500px;
+    height: 350px;
+    padding: 25px 15px;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 4px 4px 2px rgba(0, 0, 0, 0.322);
+}
+
+/* DIVS */
+form > div {
+    padding-bottom: 25px;
+}
+
+label {
+    font-weight: 500;
+    font-family: "Teko", sans-serif;
+}
+
+.btn-primario {
+    width: 200px;
+    height: 30px;
+
+    text-align: center;
+
+    border-radius: 4px;
+    border: 0.5px solid black;
+}
+
+/* BUTTON CADASTRO */
+
+.btn-cadastro {
+    width: 320px;
+    height: 40px;
+
+    font-family: "Teko", sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    
+    margin: 10px;
+    border-radius: 4px;
+    background-color: rgb(155, 255, 97);
+    cursor: pointer;
+    
+}
+
+.btn-cadastro:hover{
+    background: rgb(84, 77, 216);
+    color: white;
+}
+
+/* FUNDO TRANSPARENTE DO ALERT*/
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    height: 100vh;
+
+    background: rgba(0,0,0,.6);
+
+    display: none;
+
+    justify-content: center;
+    align-items: center;
+}
+
+/* CAIXA DE ALERTA */
+.alert {
+    background: white;
+    width: 400px;
+    height: 200px;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0px 0px 20px rgba(0,0,0,.3);
+}
+
+.alert h2{
+    font-family: "Teko", sans-serif;
+    margin-bottom: 5px ;
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.alert h2 > #red {
+    color: red;
+}
+
+.alert h2 > #blue {
+    color: blue;
+}
+
+/* BUTTON FECHAR ALERT*/
+.alert button{
+    margin-top: 20px;
+    padding: 2px 8px;
+
+    width: 60px;
+    font-family: "Teko", sans-serif;
+    font-size: 18px;
+    border-radius: 4px;
+    background: rgb(155, 255, 97);
+    color: black;
+    cursor: pointer;
+}
+
+.alert button:hover{
+    background: rgb(84, 77, 216);
+    color: white;
+}
+
+/* ========================================= */
+
+footer {
+    color: white;
+    text-align: center;
+    margin: 25px 0px;
+}

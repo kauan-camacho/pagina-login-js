@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Formulario</title>
+</head>
+<body>
+    <header>
+        <h1>Formulário</h1>
+    </header>
+    <section>
+        <div>
+            <!-- Formulario -->
+           <form action="formulario">
+            <div>
+                <label for="nome">Nome:</label><br>
+                <input class="btn-primario" type="text" name="nome" id="txtnome" placeholder="Digite seu nome">
+            </div>
+            <div>
+                <label for="email">E-mail:</label><br>
+                <input class="btn-primario" type="email" name="email" id="txtemail" placeholder="Digite seu e-mail">
+            </div>
+            <div>
+                <label for="senha">Senha:</label><br>
+                <input class="btn-primario" type="password" name="senha" id="txtsenha"   placeholder="Digite uma senha">
+            </div>
+           </form>
+           <!-- Button de cadastro -->
+           <input class="btn-cadastro" type="button" value="Cadastrar" onclick="cadastrar()">
+        </div>
+    </section>
+
+    <!-- Alert personalizado -->
+    <div id="overlay" class="overlay">
+        <div class="alert">
+            <h2 id="titulo">Aviso</h1>
+
+            <p id="msg"> A alerta foi criado em HTML, CSS e JavaScript</p>
+
+            <button onclick="fecharAlert()">OK</button>
+        </div>
+    </div>
+
+    <!-- Rodapé -->
+    <footer>
+        <p>&copy; Todos os direito reservados</p>
+    </footer>
+
+    <!-- Link do Javascript -->
+    <script src="alert.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
